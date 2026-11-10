@@ -1,5 +1,10 @@
 # Clobber AI Agent — Minimax & Alpha-Beta Pruning
 
+## Autores
+* ** Andrés Peña
+* ** Patricio Frez
+* ** Arroyo
+
 Agente inteligente implementado en Python para jugar al juego de estrategia **Clobber** contra un usuario humano mediante consola. El agente utiliza el algoritmo **Minimax con poda Alfa-Beta** y una heurística de evaluación posicional y territorial.
 
 ## Características Clave
