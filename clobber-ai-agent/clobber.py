@@ -173,10 +173,6 @@ class Clobber(Board):
         """Indica si ``player`` posee al menos una captura legal."""
         return bool(self.legal_moves(player))
 
-    # ------------------------------------------------------------------
-    # Alias en español para mantener el código fácil de leer en el curso
-    # y conservar compatibilidad con la versión inicial del proyecto.
-    # ------------------------------------------------------------------
     def jugada(self, f: int, c: int, x: int, y: int) -> bool:
         """Alias de ``play`` conservado por compatibilidad."""
         return self.play(f, c, x, y)
