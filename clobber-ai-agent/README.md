@@ -11,7 +11,7 @@ Agente inteligente implementado en Python para jugar al juego de estrategia **Cl
   * **Aislamiento del rival:** Control táctico penalizando la adyacencia de fichas enemigas.
   * **Control de bordes y esquinas:** Penalización posicional suave para prevenir desventajas tácticas.
 
-# Arquitectura de Módulos
+## Arquitectura de Módulos
 
 El proyecto está diseñado de forma modular bajo principios de programación orientada a objetos:
 
@@ -23,7 +23,7 @@ graph TD
     C -->|hereda de| T[tablero.py<br/><i>Estructura base del tablero N x N</i>]
 ```
 
-# Ejecución
+## Ejecución
 
 ```bash
 python game.py
