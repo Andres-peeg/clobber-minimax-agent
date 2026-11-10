@@ -2,7 +2,7 @@
 
 Agente inteligente implementado en Python para jugar al juego de estrategia **Clobber** contra un usuario humano mediante consola. El agente utiliza el algoritmo **Minimax con poda Alfa-Beta** y una heurística de evaluación posicional y territorial.
 
-# Características Clave
+## Características Clave
 * **Algoritmo de Búsqueda:** Minimax con poda Alfa-Beta (Alpha-Beta Pruning) con límite de profundidad configurable.
 * **Ordenamiento de Jugadas:** Move ordering previo para maximizar el número de podas de ramas ineficientes y optimizar el tiempo de respuesta.
 * **Función Heurística Personalizada:**
