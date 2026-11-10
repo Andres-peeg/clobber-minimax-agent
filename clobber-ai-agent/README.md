@@ -3,7 +3,7 @@
 ## Autores
 *  Andrés Peña
 *  Patricio Frez
-*  Arroyo
+*  Ian Arroyo
 
 Agente inteligente implementado en Python para jugar al juego de estrategia **Clobber** contra un usuario humano mediante consola. El agente utiliza el algoritmo **Minimax con poda Alfa-Beta** y una heurística de evaluación posicional y territorial.
 
