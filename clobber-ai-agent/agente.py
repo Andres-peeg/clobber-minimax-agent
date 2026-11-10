@@ -19,7 +19,7 @@ tableros_revisados = 0
 
 
 def clonar_tablero(tablero):
-    """Crea una copia rápida del tablero sin la sobrecarga de deepcopy."""
+    """Crea una copia rápida del tablero."""
     nuevo = Clobber.__new__(Clobber)
     nuevo._size = tablero._size
     nuevo._places = [fila[:] for fila in tablero._places]
